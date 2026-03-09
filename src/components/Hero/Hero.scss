@@ -1,0 +1,126 @@
+@import '../../styles/variables';
+
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      135deg,
+      rgba(91, 47, 44, 0.7) 0%,
+      rgba(230, 220, 213, 0.5) 100%
+    );
+    z-index: 2;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 900px;
+    padding: $spacing-lg;
+    color: $color-text-light;
+  }
+
+  &__title {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 700;
+    margin-bottom: $spacing-md;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    color: $color-white;
+  }
+
+  &__subtitle {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 400;
+    margin-bottom: $spacing-lg;
+    color: $color-primary;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  &__description {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    line-height: 1.8;
+    margin-bottom: $spacing-xl;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $color-white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  &__cta {
+    padding: $spacing-md $spacing-xl;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $color-secondary;
+    background-color: $color-primary;
+    border-radius: 4px;
+    transition: all $transition-base;
+    box-shadow: $shadow-md;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: $shadow-lg;
+      background-color: lighten($color-primary, 5%);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    min-height: 500px;
+
+    &__content {
+      padding: $spacing-md;
+    }
+
+    &__title {
+      margin-bottom: $spacing-sm;
+    }
+
+    &__subtitle {
+      margin-bottom: $spacing-md;
+    }
+
+    &__description {
+      margin-bottom: $spacing-lg;
+    }
+
+    &__cta {
+      padding: $spacing-sm $spacing-lg;
+      font-size: 1rem;
+    }
+  }
+}

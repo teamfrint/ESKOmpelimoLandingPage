@@ -1,0 +1,38 @@
+@import '../../styles/variables';
+
+.footer {
+  background-color: $color-secondary;
+  color: $color-text-light;
+  padding: $spacing-xl $spacing-lg;
+
+  &__container {
+    max-width: $breakpoint-desktop;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__tagline {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: $spacing-md;
+    color: $color-primary;
+    letter-spacing: 0.5px;
+  }
+
+  &__copyright {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: $spacing-lg $spacing-md;
+
+    &__tagline {
+      font-size: 1.1rem;
+    }
+
+    &__copyright {
+      font-size: 0.9rem;
+    }
+  }
+}

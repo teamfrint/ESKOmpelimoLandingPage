@@ -1,0 +1,131 @@
+@import '../../styles/variables';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(230, 220, 213, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: $shadow-sm;
+  transition: all $transition-base;
+
+  &__container {
+    max-width: $breakpoint-desktop;
+    margin: 0 auto;
+    padding: $spacing-md $spacing-lg;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+  }
+
+  &__logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-secondary;
+    letter-spacing: 0.5px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: $spacing-lg;
+  }
+
+  &__nav-link {
+    color: $color-secondary;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color $transition-base;
+    padding: $spacing-xs $spacing-sm;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: $color-secondary;
+      transition: width $transition-base;
+    }
+
+    &:hover {
+      color: darken($color-secondary, 10%);
+
+      &::after {
+        width: 80%;
+      }
+    }
+  }
+
+  &__language-toggle {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: $color-secondary;
+    padding: $spacing-xs $spacing-sm;
+    border: 2px solid $color-secondary;
+    border-radius: 4px;
+    transition: all $transition-base;
+
+    span {
+      transition: opacity $transition-base;
+      opacity: 0.5;
+
+      &.active {
+        opacity: 1;
+      }
+
+      &.separator {
+        opacity: 0.3;
+      }
+    }
+
+    &:hover {
+      background-color: $color-secondary;
+      color: $color-primary;
+
+      span {
+        opacity: 1;
+
+        &.separator {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    &__container {
+      padding: $spacing-sm $spacing-md;
+    }
+
+    &__logo-text {
+      font-size: 1.25rem;
+    }
+
+    &__nav {
+      gap: $spacing-sm;
+    }
+
+    &__nav-link {
+      font-size: 0.9rem;
+      padding: $spacing-xs;
+    }
+
+    &__language-toggle {
+      font-size: 0.85rem;
+      padding: 6px $spacing-sm;
+    }
+  }
+}
