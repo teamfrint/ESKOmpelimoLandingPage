@@ -6,7 +6,7 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'ESKO Mpeliamo',
+      title: 'ESK Ompeliamo',
       subtitle: 'Professional Tailor Services',
       description: 'Crafting bespoke garments with precision and passion. Where tradition meets modern elegance.',
       cta: 'Get Started'
@@ -55,7 +55,7 @@ export const translations = {
       contact: 'Yhteystiedot'
     },
     hero: {
-      title: 'ESKO Mpeliamo',
+      title: 'ESK Ompeliamo',
       subtitle: 'Ammattimainen Räätälipalvelu',
       description: 'Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin.',
       cta: 'Aloita'
