@@ -27,7 +27,7 @@ function Contact({ translations }) {
               </div>
               <div className="contact-item__content">
                 <h3 className="contact-item__label">{translations.contact.phone}</h3>
-                <p className="contact-item__value">+358 XX XXX XXXX</p>
+                <p className="contact-item__value">045 8569566</p>
               </div>
             </div>
 
