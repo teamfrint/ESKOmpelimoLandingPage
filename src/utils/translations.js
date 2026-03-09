@@ -6,7 +6,7 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      title: 'ESK Ompeliamo',
+      title: 'ESK Ompelimo',
       subtitle: 'Professional Tailor Services',
       description: 'Crafting bespoke garments with precision and passion. Where tradition meets modern elegance.',
       cta: 'Get Started'
@@ -44,7 +44,7 @@ export const translations = {
       addressValue: 'Helsinki, Finland'
     },
     footer: {
-      copyright: '© 2026 ESKO Mpeliamo. All rights reserved.',
+      copyright: '© 2026 ESK Ompelimo. All rights reserved.',
       tagline: 'Crafting Excellence Since Day One'
     }
   },
@@ -55,7 +55,7 @@ export const translations = {
       contact: 'Yhteystiedot'
     },
     hero: {
-      title: 'ESK Ompeliamo',
+      title: 'ESK Ompelimo',
       subtitle: 'Ammattimainen Räätälipalvelu',
       description: 'Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin.',
       cta: 'Aloita'
@@ -93,7 +93,7 @@ export const translations = {
       addressValue: 'Helsinki, Suomi'
     },
     footer: {
-      copyright: '© 2026 ESKO Mpeliamo. Kaikki oikeudet pidätetään.',
+      copyright: '© 2026 ESK Ompelimo. Kaikki oikeudet pidätetään.',
       tagline: 'Huippuosaamista Ensimmäisestä Päivästä'
     }
   }
