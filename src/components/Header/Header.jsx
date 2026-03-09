@@ -12,7 +12,7 @@ function Header({ language, toggleLanguage, translations }) {
     <header className="header">
       <div className="header__container">
         <div className="header__logo">
-          <span className="header__logo-text">ESKO Mpeliamo</span>
+          <span className="header__logo-text">ESK Ompelimo</span>
         </div>
 
         <nav className="header__nav">
