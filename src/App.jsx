@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer'
 import { translations } from './utils/translations'
 
 function App() {
-  const [language, setLanguage] = useState('en')
+  const [language, setLanguage] = useState('fi')
 
   const toggleLanguage = () => {
     setLanguage(prev => prev === 'en' ? 'fi' : 'en')
