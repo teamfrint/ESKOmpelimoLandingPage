@@ -1,9 +1,11 @@
 export const translations = {
   en: {
     nav: {
-      home: 'Home',
+      profile: 'Profile',
       services: 'Services',
-      contact: 'Contact'
+      priceList: 'Price List',
+      location: 'Location',
+      contact: 'Contact Information'
     },
     hero: {
       title: 'ESK Ompelimo',
@@ -50,8 +52,10 @@ export const translations = {
   },
   fi: {
     nav: {
-      home: 'Etusivu',
+      profile: 'Profiili',
       services: 'Palvelut',
+      priceList: 'Hinnasto',
+      location: 'Sijainti',
       contact: 'Yhteystiedot'
     },
     hero: {

@@ -18,15 +18,27 @@ function Header({ language, toggleLanguage, translations }) {
         <nav className="header__nav">
           <button
             className="header__nav-link"
-            onClick={() => scrollToSection('home')}
+            onClick={() => scrollToSection('profile')}
           >
-            {translations.nav.home}
+            {translations.nav.profile}
           </button>
           <button
             className="header__nav-link"
             onClick={() => scrollToSection('services')}
           >
             {translations.nav.services}
+          </button>
+          <button
+            className="header__nav-link"
+            onClick={() => scrollToSection('priceList')}
+          >
+            {translations.nav.priceList}
+          </button>
+          <button
+            className="header__nav-link"
+            onClick={() => scrollToSection('location')}
+          >
+            {translations.nav.location}
           </button>
           <button
             className="header__nav-link"
