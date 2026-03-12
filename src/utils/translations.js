@@ -7,6 +7,18 @@ export const translations = {
       location: 'Location',
       contact: 'Contact Information'
     },
+    servicesMenu: {
+      title: 'Services',
+      items: [
+        'Custom Work',
+        'Clothing Alterations',
+        'Zipper Replacement',
+        'Shortening Sleeves or Pants',
+        'Alteration Services',
+        'Boat Upholstery Work',
+        'Furniture Upholstery'
+      ]
+    },
     hero: {
       title: 'ESK Ompelimo',
       subtitle: 'Professional Tailor Services',
@@ -57,6 +69,18 @@ export const translations = {
       priceList: 'Hinnasto',
       location: 'Sijainti',
       contact: 'Yhteystiedot'
+    },
+    servicesMenu: {
+      title: 'Palvelut',
+      items: [
+        'Mittatilaustyöt',
+        'Vaatekorjaus',
+        'Vetoketjun vaihto',
+        'Hihan tai lahkojen lyhennys',
+        'Muokkaus palvelut',
+        'Venen verhoilutyöt',
+        'Huonekalujen verhoilut'
+      ]
     },
     hero: {
       title: 'ESK Ompelimo',

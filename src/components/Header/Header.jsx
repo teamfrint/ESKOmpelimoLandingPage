@@ -1,11 +1,15 @@
+import { useState } from 'react'
 import './Header.scss'
 
 function Header({ language, toggleLanguage, translations }) {
+  const [showServicesMenu, setShowServicesMenu] = useState(false)
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
     }
+    setShowServicesMenu(false)
   }
 
   return (
@@ -18,16 +22,32 @@ function Header({ language, toggleLanguage, translations }) {
         <nav className="header__nav">
           <button
             className="header__nav-link"
-            onClick={() => scrollToSection('profile')}
+            onClick={() => scrollToSection('hero')}
           >
             {translations.nav.profile}
           </button>
-          <button
-            className="header__nav-link"
-            onClick={() => scrollToSection('services')}
-          >
-            {translations.nav.services}
-          </button>
+          <div className="header__services-wrapper">
+            <button
+              className="header__nav-link"
+              onClick={() => setShowServicesMenu(!showServicesMenu)}
+            >
+              {translations.nav.services}
+              <span className={`header__dropdown-arrow ${showServicesMenu ? 'active' : ''}`}>▼</span>
+            </button>
+            {showServicesMenu && (
+              <div className="header__services-menu">
+                {translations.servicesMenu.items.map((item, index) => (
+                  <button
+                    key={index}
+                    className="header__services-item"
+                    onClick={() => scrollToSection('services')}
+                  >
+                    {item}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <button
             className="header__nav-link"
             onClick={() => scrollToSection('priceList')}
