@@ -4,6 +4,13 @@ import './Header.scss'
 function Header({ language, toggleLanguage, translations }) {
   const [showServicesMenu, setShowServicesMenu] = useState(false)
 
+  const getServiceId = (text) => {
+    return text.toLowerCase().replace(/[\s/]/g, '-').replace(/[äöå]/g, (c) => {
+      const map = { 'ä': 'a', 'ö': 'o', 'å': 'a' }
+      return map[c] || c
+    })
+  }
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {
@@ -40,7 +47,7 @@ function Header({ language, toggleLanguage, translations }) {
                   <button
                     key={index}
                     className="header__services-item"
-                    onClick={() => scrollToSection('services')}
+                    onClick={() => scrollToSection(getServiceId(item))}
                   >
                     {item}
                   </button>
