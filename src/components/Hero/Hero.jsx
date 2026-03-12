@@ -1,15 +1,15 @@
-import './Hero.scss'
+import "./Hero.scss";
 
 function Hero({ translations }) {
   const scrollToContact = () => {
-    const element = document.getElementById('contact')
+    const element = document.getElementById("contact");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="hero">
       <div className="hero__overlay"></div>
       <div className="hero__image">
         <img
@@ -27,7 +27,7 @@ function Hero({ translations }) {
         </button>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
