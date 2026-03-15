@@ -1,10 +1,9 @@
 import "./Hero.scss";
 
-function Hero({ translations }) {
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+function Hero({ translations, setActiveSection }) {
+  const goToServices = () => {
+    if (setActiveSection) {
+      setActiveSection("services");
     }
   };
 
@@ -22,7 +21,7 @@ function Hero({ translations }) {
         <h1 className="hero__title">{translations.hero.title}</h1>
         <h2 className="hero__subtitle">{translations.hero.subtitle}</h2>
         <p className="hero__description">{translations.hero.description}</p>
-        <button className="hero__cta" onClick={scrollToContact}>
+        <button className="hero__cta" onClick={goToServices}>
           {translations.hero.cta}
         </button>
       </div>

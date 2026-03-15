@@ -30,7 +30,7 @@ function App() {
     }
     switch (activeSection) {
       case 'hero':
-        return <Hero translations={t} />
+        return <Hero translations={t} setActiveSection={setActiveSection} />
       case 'profile':
         return <Profile translations={t} />
       case 'services':

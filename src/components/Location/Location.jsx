@@ -2,7 +2,7 @@ import './Location.scss';
 
 function Location({ translations }) {
   const mapLink = "https://www.google.com/maps/place/Kotikyl%C3%A4ntie+4,+02770+Espoo,+Finland";
-  
+
   return (
     <section className="location" id="location">
       <div className="location__container">
@@ -24,9 +24,9 @@ function Location({ translations }) {
 
           <div className="location__map">
             <a href={mapLink} target="_blank" rel="noopener noreferrer">
-              <img 
-                src="/location-map.png" 
-                alt="Google Map showing Location at Kotikyläntie 4, Espoo" 
+              <img
+                src="https://images.pexels.com/photos/7738879/pexels-photo-7738879.jpeg?_gl=1*41zbz5*_ga*MTQ0NTE3NTk4NS4xNzczNTYwMDg2*_ga_8JE65Q40S6*czE3NzM1NjAwODUkbzEkZzEkdDE3NzM1NjExMzUkajUkbDAkaDA."
+                alt="Google Map showing Location at Kotikyläntie 4, Espoo"
                 className="location__map-image"
               />
             </a>

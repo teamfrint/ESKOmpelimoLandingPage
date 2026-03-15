@@ -56,7 +56,37 @@ export const translations = {
             { name: "Dress hem shortening", price: "starting from — 45 €" },
             { name: "Taking in (narrowing/alteration)", price: "starting from — 40 €" },
             { name: "Sleeve shortening", price: "— 25 €" },
-            { name: "Zipper replacement", price: "starting from — 35 €" }
+            { name: "Zipper replacement", price: "starting from — 35 €" },
+            {
+              title: "Trouser Hem Shortening",
+              items: [
+                { name: "Trouser hems", price: "— 20 €" },
+                { name: "Trouser hems (blind stitch)", price: "— 30 €" },
+                { name: "Buttonhole", price: "— 6 € / pcs" },
+                { name: "Button sewing", price: "— 5 € / pcs" },
+                { name: "Patch sewing / repairs", price: "— 15 € / pcs" }
+              ]
+            },
+            {
+              title: "Skirts",
+              items: [
+                { name: "Shortening", price: "starting from — 35 €" },
+                { name: "Zipper replacement", price: "starting from — 25 €" },
+                { name: "Other adjustments", price: "— 25 €" },
+                { name: "Waist tightening", price: "starting from — 25 €" }
+              ]
+            },
+            {
+              title: "Jacket Zipper Replacement",
+              items: [
+                { name: "Children’s jacket", price: "— 35 €" },
+                { name: "Hoodie", price: "— 30 €" },
+                { name: "Length 60–70 cm", price: "— 55 €" },
+                { name: "Length 75–85 cm", price: "— 65 €" },
+                { name: "Length 90–100 cm", price: "— 75 €" }
+
+              ]
+            },
           ]
         }
       ]
@@ -71,7 +101,7 @@ export const translations = {
       subtitle: "Professional Tailor Services",
       description:
         "Crafting bespoke garments with precision and passion. Where tradition meets modern elegance.",
-      cta: "Get Started",
+      cta: "Go to Services",
     },
     profileText: [
       "Hello, I am Ali Reza.",
@@ -115,7 +145,7 @@ export const translations = {
       address: "Address",
       hours: "Hours",
       hoursValue: "Mon-Fri: 9AM-6PM",
-      addressValue: "Helsinki, Finland",
+      addressValue: "Kotikyläntie 4, 02770 Espoo, Finland",
     },
     footer: {
       copyright: "© 2026 ESK Ompelimo. All rights reserved.",
@@ -181,7 +211,37 @@ export const translations = {
             { name: "Hihojen lyhennys", price: "— 25 €" },
             { name: "Vetoketjun vaihto", price: "alk — 35 €" }
           ]
-        }
+        },
+        {
+          title: "Housujen lahkeet lyhennys",
+          items: [
+            { name: "Housujen lahkeet", price: "— 20 €" },
+            { name: "Housujen lahkeet piiloompelu", price: "— 30 €" },
+            { name: "Napinläpi", price: "— 6 € / kpl" },
+            { name: "Nappi ompelu", price: "— 5 € / kpl" },
+            { name: "Paikkojen ompelu", price: "— 15 € / kpl" }
+          ]
+        },
+        {
+          title: "Hameet",
+          items: [
+            { name: "Lyhennys", price: "alk — 35 €" },
+            { name: "Vetoketjun vaihto", price: "alk — 25 €" },
+            { name: "Muut kavennykset", price: "— 25 €" },
+            { name: "Vyötärön kavennus", price: "alk — 25 €" }
+          ]
+        },
+        {
+          title: "Jacket Zipper Replacement",
+          items: [
+            { name: "Children’s jacket", price: "— 35 €" },
+            { name: "Hoodie", price: "— 30 €" },
+            { name: "Length 60–70 cm", price: "— 55 €" },
+            { name: "Length 75–85 cm", price: "— 65 €" },
+            { name: "Length 90–100 cm", price: "— 75 €" }
+          ]
+        },
+
       ]
     },
     location: {
@@ -194,7 +254,7 @@ export const translations = {
       subtitle: "Ammattimainen Räätälipalvelu",
       description:
         "Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin.",
-      cta: "Aloita",
+      cta: "Mene Palveluihin",
     },
     profileText: [
       "Hei, olen Ali Reza. Olen ammattitaitoinen ompelija ja suunnittelija minulla on yli 15 vuoden kokemus tältä alata. Opiskelin Vaasan ammattikoulussa suunnittelua ja kaavoitusta mikä loi vahvan perustan työlleni.",
@@ -238,7 +298,7 @@ export const translations = {
       address: "Osoite",
       hours: "Aukioloajat",
       hoursValue: "Ma-Pe: 9-18",
-      addressValue: "Helsinki, Suomi",
+      addressValue: "Kotikyläntie 4, 02770 Espoo, Suomi",
     },
     footer: {
       copyright: "© 2026 ESK Ompelimo. Kaikki oikeudet pidätetään.",
