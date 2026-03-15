@@ -16,9 +16,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: $spacing-xl;
     text-align: left;
-    margin-bottom: $spacing-xxl;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: $spacing-xl;
   }
 
   &__column {
@@ -102,22 +99,6 @@
     }
   }
 
-  &__bottom {
-    text-align: center;
-  }
-
-  &__tagline {
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin-bottom: $spacing-sm;
-    color: rgba(255, 255, 255, 0.9);
-    letter-spacing: 0.5px;
-  }
-
-  &__copyright {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.6);
-  }
 
   @media (max-width: $breakpoint-mobile) {
     padding: $spacing-xl $spacing-md;
@@ -138,14 +119,6 @@
 
     &__link {
       text-align: center;
-    }
-
-    &__tagline {
-      font-size: 1.1rem;
-    }
-
-    &__copyright {
-      font-size: 0.9rem;
     }
   }
 }

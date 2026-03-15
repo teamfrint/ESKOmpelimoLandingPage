@@ -89,6 +89,39 @@ export const translations = {
 
           ]
         },
+        {
+          title: "Curtain Sewing",
+          items: [
+            { name: "Curtain shortening", price: " 20 €" },
+            { name: "Curtain shortening with top and bottom hems", price: " 35 €" },
+            { name: "Side seams + top and bottom hems", price: " 45 €" },
+            { name: "Tablecloth straight seam", price: " 10 €" }
+          ]
+        },
+        {
+          title: "Custom-Made Clothing",
+          items: [
+            { name: "Shirt", price: " 130 €" },
+            { name: "Pants / Skirt", price: "starting from  130 €" },
+            { name: "Dress", price: "starting from  160 €" },
+            { name: "Evening dress", price: "starting from  400 €" },
+            { name: "Light jacket", price: "starting from  150 €" },
+            { name: "Lined jacket", price: "starting from  260 €" },
+            { name: "Blazer", price: "starting from  200 €" },
+            { name: "Long winter coat", price: "starting from  450 €" }
+          ]
+        },
+        {
+          title: "Suits",
+          items: [
+            { name: "Suit sleeve shortening", price: " 50 €" },
+            { name: "Suit sleeve lengthening", price: " 60 €" },
+            { name: "Taking in (alterations)", price: "starting from 55 €" },
+            { name: "Lining replacement", price: " 120 €" },
+            { name: "Patching / repairs", price: "starting from 40 €" }
+          ]
+        }
+
       ]
     },
     location: {
@@ -239,16 +272,47 @@ export const translations = {
           ]
         },
         {
-          title: "Jacket Zipper Replacement",
+          title: "Takin vetoketjuvaihto",
           items: [
-            { name: "Children’s jacket", price: "35 €" },
-            { name: "Hoodie", price: "30 €" },
-            { name: "Length 60–70 cm", price: "55 €" },
-            { name: "Length 75–85 cm", price: "65 €" },
-            { name: "Length 90–100 cm", price: "75 €" }
+            { name: "Lastentakki", price: " 35 €" },
+            { name: "Huppari", price: " 30 €" },
+            { name: "Pituus 60–70 cm", price: " 55 €" },
+            { name: "Pituus 75–85 cm", price: " 65 €" },
+            { name: "Pituus 90–100 cm", price: " 75 €" }
           ]
         },
-
+        {
+          title: "Verhojen ompelu",
+          items: [
+            { name: "Verhojen lyhennys", price: " 20 €" },
+            { name: "Verhojen lyhennys ylä- ja alakäänteet", price: " 35 €" },
+            { name: "Sivut sekä ylä- ja alakäänteet", price: " 45 €" },
+            { name: "Pöytäliinan suora sauma", price: " 10 €" }
+          ]
+        },
+        {
+          title: "Mittatilausvaatteet",
+          items: [
+            { name: "Paita", price: " 130 €" },
+            { name: "Housut / Hame", price: "alk 130 €" },
+            { name: "Mekko", price: "alk 160 €" },
+            { name: "Juhlamekko", price: "alk 400 €" },
+            { name: "Kevyt takki", price: "alk 150 €" },
+            { name: "Vuorattu takki", price: "alk 260 €" },
+            { name: "Bleiseri", price: "alk 200 €" },
+            { name: "Pitkä talvitakki", price: "alk 450 €" }
+          ]
+        },
+        {
+          title: "Puvut",
+          items: [
+            { name: "Puvun hihan lyhennys", price: " 50 €" },
+            { name: "Puvun hihan pidennys", price: " 60 €" },
+            { name: "Kavennukset", price: "alk 55 €" },
+            { name: "Vuorin vaihto", price: " 120 €" },
+            { name: "Paikkaukset", price: "alk 40 €" }
+          ]
+        }
       ]
     },
     location: {
