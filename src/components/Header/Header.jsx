@@ -2,16 +2,8 @@ import { useState } from "react";
 import "./Header.scss";
 
 function Header({ language, toggleLanguage, translations, activeSection, setActiveSection }) {
-  const [showServicesMenu, setShowServicesMenu] = useState(false);
-
   const handleNavClick = (sectionId) => {
     setActiveSection(sectionId);
-    setShowServicesMenu(false);
-  };
-
-  const handleSubNavClick = (itemId) => {
-    setActiveSection(`services-${itemId}`);
-    setShowServicesMenu(false);
   };
 
   return (
@@ -31,32 +23,12 @@ function Header({ language, toggleLanguage, translations, activeSection, setActi
           >
             {translations.nav.profile}
           </button>
-          <div className="header__services-wrapper">
-            <button
-              className={`header__nav-link ${activeSection.startsWith('services') && activeSection !== 'services' ? 'active' : ''}`}
-              onClick={() => setShowServicesMenu(!showServicesMenu)}
-            >
-              {translations.nav.services}
-              <span
-                className={`header__dropdown-arrow ${showServicesMenu ? "active" : ""}`}
-              >
-                ▼
-              </span>
-            </button>
-            {showServicesMenu && (
-              <div className="header__services-menu">
-                {translations.servicesMenu.items.map((item, index) => (
-                  <button
-                    key={index}
-                    className={`header__services-item ${activeSection === `services-${item.id}` ? 'active' : ''}`}
-                    onClick={() => handleSubNavClick(item.id)}
-                  >
-                    {item.title}
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
+          <button
+            className={`header__nav-link ${activeSection.startsWith('services') ? 'active' : ''}`}
+            onClick={() => handleNavClick("services")}
+          >
+            {translations.nav.services}
+          </button>
           <button
             className={`header__nav-link ${activeSection === 'priceList' ? 'active' : ''}`}
             onClick={() => handleNavClick("priceList")}

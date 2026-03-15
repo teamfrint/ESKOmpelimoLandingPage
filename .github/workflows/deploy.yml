@@ -1,0 +1,39 @@
+name: Deploy to Zoner
+
+on:
+  push:
+    branches:
+      - main # This will trigger the deployment when you push to the main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Sync files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/    # The folder Vite creates after building
+          server-dir: /public_html/ # Confirm this is the correct directory in your Zoner hosting (e.g., /public_html/)
+          # Optional: exclude files you don't want uploaded
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**

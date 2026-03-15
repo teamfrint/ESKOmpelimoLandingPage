@@ -11,7 +11,7 @@ import { translations } from './utils/translations'
 
 function App() {
   const [language, setLanguage] = useState('fi')
-  const [activeSection, setActiveSection] = useState('profile')
+  const [activeSection, setActiveSection] = useState('hero')
 
   const toggleLanguage = () => {
     setLanguage(prev => prev === 'en' ? 'fi' : 'en')
@@ -42,7 +42,7 @@ function App() {
       case 'contact':
         return <Contact translations={t} />
       default:
-        return <Profile translations={t} />
+        return <Hero translations={t} setActiveSection={setActiveSection} />
     }
   }
 

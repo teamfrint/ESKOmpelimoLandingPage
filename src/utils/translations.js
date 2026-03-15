@@ -127,7 +127,9 @@ export const translations = {
     location: {
       title: "Location",
       addressLabel: "Address",
-      getDirections: "Get Directions on Google Maps"
+      getDirections: "Get Directions on Google Maps",
+      walkingDist: "The tailor shop is located about a 7-minute walk from Espoo center train station, at Kotikyläntie 4, opposite Kirkkojärvi school.",
+      parking: "4-hour parking is always available for cars."
     },
     hero: {
       title: "ESK Ompelimo",
@@ -318,7 +320,9 @@ export const translations = {
     location: {
       title: "Sijainti",
       addressLabel: "Osoite",
-      getDirections: "Hae reittiohjeet Google Mapsista"
+      getDirections: "Hae reittiohjeet Google Mapsista",
+      walkingDist: "Ompelimo sijaitsee noin 7 minuutin kävelymatkan päässä Espoon keskus -juna-asemalta, osoitteessa Kotikyläntie 4, Kirkkojärven koulun vastapäätä.",
+      parking: "Ja autolle on aina saatavilla 4 tunnin pysäköinti."
     },
     hero: {
       title: "ESK Ompelimo",

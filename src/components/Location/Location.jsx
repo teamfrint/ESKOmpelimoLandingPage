@@ -17,19 +17,26 @@ function Location({ translations }) {
               Kotikyläntie 4<br />
               02770 Espoo
             </p>
+            <div className="location__info">
+              <p className="location__info-text">{translations.location.walkingDist}</p>
+              <p className="location__info-text">{translations.location.parking}</p>
+            </div>
             <a href={mapLink} target="_blank" rel="noopener noreferrer" className="location__directions-btn">
               {translations.location.getDirections}
             </a>
           </div>
 
           <div className="location__map">
-            <a href={mapLink} target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://images.pexels.com/photos/7738879/pexels-photo-7738879.jpeg?_gl=1*41zbz5*_ga*MTQ0NTE3NTk4NS4xNzczNTYwMDg2*_ga_8JE65Q40S6*czE3NzM1NjAwODUkbzEkZzEkdDE3NzM1NjExMzUkajUkbDAkaDA."
-                alt="Google Map showing Location at Kotikyläntie 4, Espoo"
-                className="location__map-image"
-              />
-            </a>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.330364136423!2d24.664448377465355!3d60.211051574972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df2462e92c481%3A0xe9c8fbc4c4f3488d!2sKotikyl%C3%A4ntie%204%2C%2002770%20Espoo%2C%20Finland!5e0!3m2!1sen!2sfi!4v1710517000000!5m2!1sen!2sfi"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Maps Location"
+            ></iframe>
           </div>
         </div>
       </div>

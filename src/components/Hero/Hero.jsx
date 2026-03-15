@@ -18,7 +18,7 @@ function Hero({ translations, setActiveSection }) {
         />
       </div>
       <div className="hero__content">
-        <h1 className="hero__title">{translations.hero.title}</h1>
+        <h1 className="hero__title">{translations.hero.title.toUpperCase()}</h1>
         <h2 className="hero__subtitle">{translations.hero.subtitle}</h2>
         <p className="hero__description">{translations.hero.description}</p>
         <button className="hero__cta" onClick={goToServices}>
