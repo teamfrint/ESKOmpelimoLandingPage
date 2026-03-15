@@ -1,24 +1,16 @@
 import { useState } from "react";
 import "./Header.scss";
 
-function Header({ language, toggleLanguage, translations }) {
+function Header({ language, toggleLanguage, translations, activeSection, setActiveSection }) {
   const [showServicesMenu, setShowServicesMenu] = useState(false);
 
-  const getServiceId = (text) => {
-    return text
-      .toLowerCase()
-      .replace(/[\s/]/g, "-")
-      .replace(/[äöå]/g, (c) => {
-        const map = { ä: "a", ö: "o", å: "a" };
-        return map[c] || c;
-      });
+  const handleNavClick = (sectionId) => {
+    setActiveSection(sectionId);
+    setShowServicesMenu(false);
   };
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+  const handleSubNavClick = (itemId) => {
+    setActiveSection(`services-${itemId}`);
     setShowServicesMenu(false);
   };
 
@@ -27,21 +19,21 @@ function Header({ language, toggleLanguage, translations }) {
       <div className="header__container">
         <button
           className="header__logo"
-          onClick={() => scrollToSection("hero")}
+          onClick={() => handleNavClick("hero")}
         >
           <span className="header__logo-text">ESK Ompelimo</span>
         </button>
 
         <nav className="header__nav">
           <button
-            className="header__nav-link"
-            onClick={() => scrollToSection("hero")}
+            className={`header__nav-link ${activeSection === 'profile' ? 'active' : ''}`}
+            onClick={() => handleNavClick("profile")}
           >
             {translations.nav.profile}
           </button>
           <div className="header__services-wrapper">
             <button
-              className="header__nav-link"
+              className={`header__nav-link ${activeSection.startsWith('services') && activeSection !== 'services' ? 'active' : ''}`}
               onClick={() => setShowServicesMenu(!showServicesMenu)}
             >
               {translations.nav.services}
@@ -56,8 +48,8 @@ function Header({ language, toggleLanguage, translations }) {
                 {translations.servicesMenu.items.map((item, index) => (
                   <button
                     key={index}
-                    className="header__services-item"
-                    onClick={() => scrollToSection(getServiceId(item.title))}
+                    className={`header__services-item ${activeSection === `services-${item.id}` ? 'active' : ''}`}
+                    onClick={() => handleSubNavClick(item.id)}
                   >
                     {item.title}
                   </button>
@@ -66,20 +58,20 @@ function Header({ language, toggleLanguage, translations }) {
             )}
           </div>
           <button
-            className="header__nav-link"
-            onClick={() => scrollToSection("priceList")}
+            className={`header__nav-link ${activeSection === 'priceList' ? 'active' : ''}`}
+            onClick={() => handleNavClick("priceList")}
           >
             {translations.nav.priceList}
           </button>
           <button
-            className="header__nav-link"
-            onClick={() => scrollToSection("location")}
+            className={`header__nav-link ${activeSection === 'location' ? 'active' : ''}`}
+            onClick={() => handleNavClick("location")}
           >
             {translations.nav.location}
           </button>
           <button
-            className="header__nav-link"
-            onClick={() => scrollToSection("contact")}
+            className={`header__nav-link ${activeSection === 'contact' ? 'active' : ''}`}
+            onClick={() => handleNavClick("contact")}
           >
             {translations.nav.contact}
           </button>

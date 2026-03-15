@@ -11,30 +11,37 @@ export const translations = {
       title: "Services",
       items: [
         {
+          id: "custom-work",
           title: "Custom Work",
           description: "Expert custom tailoring to bring your unique designs to reality with perfect fit and style."
         },
         {
+          id: "clothing-alterations",
           title: "Clothing Alterations",
           description: "Professional alterations to ensure your garments fit flawlessly and look their best."
         },
         {
+          id: "zipper-replacement",
           title: "Zipper Replacement",
           description: "Quick and durable zipper repair and replacement for jackets, pants, dresses, and more."
         },
         {
+          id: "shortening",
           title: "Shortening Sleeves or Pants",
           description: "Precise hemming and shortening services for a clean, tailored finish on your sleeves and trousers."
         },
         {
+          id: "alteration-services",
           title: "Alteration Services",
           description: "Comprehensive garment modifications tailored to your exact measurements and preferences."
         },
         {
+          id: "boat-upholstery",
           title: "Boat Upholstery Work",
           description: "High-quality marine upholstery services to restore and protect your boat's interior seating and covers."
         },
         {
+          id: "furniture-upholstery",
           title: "Furniture Upholstery",
           description: "Revitalize your beloved furniture with our expert upholstery repair and refinishing services."
         },
@@ -66,12 +73,14 @@ export const translations = {
         "Crafting bespoke garments with precision and passion. Where tradition meets modern elegance.",
       cta: "Get Started",
     },
-    Profile: {
-      title: "ESK Ompelimo",
-      subtitle: "Ammattimainen Räätälipalvelu",
-      description:
-        "Hi, I’m Ali Reza, a professional tailor and designer with over 15 years of experience in the industry. I studied design and pattern making at the Vaasa Vocational School, which provided a strong technical foundation for my craft. I specialize in custom-made clothing, garment alterations, and personalized designs tailored to each client’s wishes. My work focuses on precision, high quality, and perfect fit. My goal is to create garments that not only look elegant but also feel comfortable and unique to the wearer. At the heart of my work is the combination of traditional craftsmanship and modern elegance. Every piece is made with care, attention to detail, and passion for the craft. In addition to clothing, I also provide upholstery services, including furniture upholstery and repairs, as well as upholstery for boats and motorhomes. I also take on larger orders and projects for businesses. I am committed to delivering high-quality work within a short timeframe and at a competitive price. ",
-    },
+    profileText: [
+      "Hello, I am Ali Reza.",
+      "I am a skilled tailor and designer with over 15 years of experience in this field. I studied design and pattern making at the Vaasa Vocational School, which created a strong foundation for my work.",
+      "I offer custom-made clothing, alterations, and personalized design according to the customer's wishes. My work combines precision, quality, and a perfect fit.",
+      "My goal is to create clothes that feel good and look amazing.",
+      "I also do furniture upholstery and repair work, as well as upholstery for boats and motorhomes.",
+      "I take on larger orders and projects for companies. I offer high-quality work in a short time at competitive prices."
+    ],
     services: {
       title: "Our Services",
       subtitle: "Excellence in Every Stitch",
@@ -125,30 +134,37 @@ export const translations = {
       title: "Palvelut",
       items: [
         {
+          id: "custom-work",
           title: "Mittatilaustyöt",
           description: "Asiantuntevaa mittatilaustyötä, joka muuttaa ainutlaatuiset visiosi todeksi täydellisellä istuvuudella ja tyylillä."
         },
         {
+          id: "clothing-alterations",
           title: "Vaatekorjaus",
           description: "Ammattimaiset korjaukset, jotta vaatteesi istuvat virheettömästi ja näyttävät parhailtaan."
         },
         {
+          id: "zipper-replacement",
           title: "Vetoketjun vaihto",
           description: "Nopea ja kestävä vetoketjun korjaus ja vaihto takkeihin, housuihin, mekkoihin ja muihin vaatteisiin."
         },
         {
+          id: "shortening",
           title: "Hihan tai lahkojen lyhennys",
           description: "Tarkat lyhennykset puhtaaseen ja huoliteltuun lopputulokseen hihoissa ja housunlahkeissa."
         },
         {
+          id: "alteration-services",
           title: "Muokkaus palvelut",
           description: "Kattavat vaatteiden muokkaukset täsmälleen sinun mittojesi ja toiveidesi mukaisesti."
         },
         {
+          id: "boat-upholstery",
           title: "Venen verhoilutyöt",
           description: "Laadukkaat veneiden verhoilutyöt veneesi sisätilojen ja suojien entisöimiseksi ja suojaamiseksi."
         },
         {
+          id: "furniture-upholstery",
           title: "Huonekalujen verhoilut",
           description: "Uudista rakkaat huonekalusi asiantuntevilla verhoilukorjauksillamme ja -kunnostuksillamme."
         },
@@ -180,12 +196,13 @@ export const translations = {
         "Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin.",
       cta: "Aloita",
     },
-    Profile: {
-      title: "ESK Ompelimo",
-      subtitle: "Ammattimainen Räätälipalvelu",
-      description:
-        "Hei, olen Ali Reza Olen ammattitaitoinen ompelija ja suunnittelija minulla on yli 15 vuoden kokemus tältä alata. Opiskelin Vaasan ammattikoulussa suunnittelua ja kaavoitusta mikä loi vahvan perustan työlleni. Tarjoan mittatilaus vaatteita, korjausompelua, sekä yksilöllistä suunnittelua asiakkaan toiveiden mukaan. Työssäni yhdistyvät tarkkuus, laatu ja täydellinen istuvuus. Tavoitteeni on luoda vaatteita, jotka tuntuvat hyvältä ja näyttävät upealta.Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin. Teen lisäksi huonekalujen verhoiluja sekä korjaustöitä. Myös veneiden ja matkailuautojen verhoilu. Suuremmat tilaukset ja projektit yrityksille. Tarjoan laadukasta työtä lyhyessä ajassa kilpailukykyiseen hintaan.",
-    },
+    profileText: [
+      "Hei, olen Ali Reza. Olen ammattitaitoinen ompelija ja suunnittelija minulla on yli 15 vuoden kokemus tältä alata. Opiskelin Vaasan ammattikoulussa suunnittelua ja kaavoitusta mikä loi vahvan perustan työlleni.",
+      "Tarjoan mittatilaus vaatteita, korjausompelua, sekä yksilöllistä suunnittelua asiakkaan toiveiden mukaan. Työssäni yhdistyvät tarkkuus, laatu ja täydellinen istuvuus.",
+      "Tavoitteeni on luoda vaatteita, jotka tuntuvat hyvältä ja näyttävät upealta.",
+      "Teen lisäksi huonekalujen verhoiluja sekä korjaustöitä. Myös veneiden ja matkailuautojen verhoilu.",
+      "Suuremmat tilaukset ja projektit yrityksille. Tarjoan laadukasta työtä lyhyessä ajassa kilpailukykyiseen hintaan."
+    ],
 
     services: {
       title: "Palvelumme",
