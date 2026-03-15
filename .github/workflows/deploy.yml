@@ -1,9 +1,14 @@
-name: Deploy to Zoner
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main # This will trigger the deployment when you push to the main branch
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -24,16 +29,14 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Sync files via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/    # The folder Vite creates after building
-          server-dir: /public_html/ # Confirm this is the correct directory in your Zoner hosting (e.g., /public_html/)
-          # Optional: exclude files you don't want uploaded
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
