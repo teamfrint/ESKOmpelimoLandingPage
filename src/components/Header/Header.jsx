@@ -57,9 +57,9 @@ function Header({ language, toggleLanguage, translations }) {
                   <button
                     key={index}
                     className="header__services-item"
-                    onClick={() => scrollToSection(getServiceId(item))}
+                    onClick={() => scrollToSection(getServiceId(item.title))}
                   >
-                    {item}
+                    {item.title}
                   </button>
                 ))}
               </div>
