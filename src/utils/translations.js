@@ -54,6 +54,11 @@ export const translations = {
         }
       ]
     },
+    location: {
+      title: "Location",
+      addressLabel: "Address",
+      getDirections: "Get Directions on Google Maps"
+    },
     hero: {
       title: "ESK Ompelimo",
       subtitle: "Professional Tailor Services",
@@ -162,6 +167,11 @@ export const translations = {
           ]
         }
       ]
+    },
+    location: {
+      title: "Sijainti",
+      addressLabel: "Osoite",
+      getDirections: "Hae reittiohjeet Google Mapsista"
     },
     hero: {
       title: "ESK Ompelimo",

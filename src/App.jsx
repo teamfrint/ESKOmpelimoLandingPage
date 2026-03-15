@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import PriceList from './components/PriceList/PriceList'
+import Location from './components/Location/Location'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import { translations } from './utils/translations'
@@ -27,6 +28,7 @@ function App() {
         <Hero translations={t} />
         <Services translations={t} />
         <PriceList translations={t} />
+        <Location translations={t} />
         <Contact translations={t} />
       </main>
       <Footer translations={t} />
