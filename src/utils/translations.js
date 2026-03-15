@@ -53,42 +53,42 @@ export const translations = {
         {
           title: "Dresses",
           items: [
-            { name: "Dress hem shortening", price: "starting from — 45 €" },
-            { name: "Taking in (narrowing/alteration)", price: "starting from — 40 €" },
-            { name: "Sleeve shortening", price: "— 25 €" },
-            { name: "Zipper replacement", price: "starting from — 35 €" },
-            {
-              title: "Trouser Hem Shortening",
-              items: [
-                { name: "Trouser hems", price: "— 20 €" },
-                { name: "Trouser hems (blind stitch)", price: "— 30 €" },
-                { name: "Buttonhole", price: "— 6 € / pcs" },
-                { name: "Button sewing", price: "— 5 € / pcs" },
-                { name: "Patch sewing / repairs", price: "— 15 € / pcs" }
-              ]
-            },
-            {
-              title: "Skirts",
-              items: [
-                { name: "Shortening", price: "starting from — 35 €" },
-                { name: "Zipper replacement", price: "starting from — 25 €" },
-                { name: "Other adjustments", price: "— 25 €" },
-                { name: "Waist tightening", price: "starting from — 25 €" }
-              ]
-            },
-            {
-              title: "Jacket Zipper Replacement",
-              items: [
-                { name: "Children’s jacket", price: "— 35 €" },
-                { name: "Hoodie", price: "— 30 €" },
-                { name: "Length 60–70 cm", price: "— 55 €" },
-                { name: "Length 75–85 cm", price: "— 65 €" },
-                { name: "Length 90–100 cm", price: "— 75 €" }
-
-              ]
-            },
+            { name: "Dress hem shortening", price: "starting fromd45 €" },
+            { name: "Taking in (narrowing/alteration)", price: "starting from 40 €" },
+            { name: "Sleeve shortening", price: "25 €" },
+            { name: "Zipper replacement", price: "starting from 35 €" }
           ]
-        }
+        },
+        {
+          title: "Trouser Hem Shortening",
+          items: [
+            { name: "Trouser hems", price: "20 €" },
+            { name: "Trouser hems (blind stitch)", price: "30 €" },
+            { name: "Buttonhole", price: "6 € / pcs" },
+            { name: "Button sewing", price: "5 € / pcs" },
+            { name: "Patch sewing / repairs", price: "15 € / pcs" }
+          ]
+        },
+        {
+          title: "Skirts",
+          items: [
+            { name: "Shortening", price: "starting from 35 €" },
+            { name: "Zipper replacement", price: "starting from 25 €" },
+            { name: "Other adjustments", price: "25 €" },
+            { name: "Waist tightening", price: "starting from 25 €" }
+          ]
+        },
+        {
+          title: "Jacket Zipper Replacement",
+          items: [
+            { name: "Children’s jacket", price: "35 €" },
+            { name: "Hoodie", price: "30 €" },
+            { name: "Length 60–70 cm", price: "55 €" },
+            { name: "Length 75–85 cm", price: "65 €" },
+            { name: "Length 90–100 cm", price: "75 €" }
+
+          ]
+        },
       ]
     },
     location: {
@@ -146,8 +146,15 @@ export const translations = {
       hours: "Hours",
       hoursValue: "Mon-Fri: 9AM-6PM",
       addressValue: "Kotikyläntie 4, 02770 Espoo, Finland",
+      phoneValue: "+358 40 123 4567",
+      emailValue: "info@eskompelimo.fi",
     },
     footer: {
+      columns: {
+        services: "Services",
+        contact: "Contact Us",
+        social: "Follow Us"
+      },
       copyright: "© 2026 ESK Ompelimo. All rights reserved.",
       tagline: "Crafting Excellence Since Day One",
     },
@@ -206,39 +213,39 @@ export const translations = {
         {
           title: "Mekot",
           items: [
-            { name: "Helman lyhennys", price: "alk — 45 €" },
-            { name: "Kavennus", price: "alk — 40 €" },
-            { name: "Hihojen lyhennys", price: "— 25 €" },
-            { name: "Vetoketjun vaihto", price: "alk — 35 €" }
+            { name: "Helman lyhennys", price: "alk 45 €" },
+            { name: "Kavennus", price: "alk 40 €" },
+            { name: "Hihojen lyhennys", price: "25 €" },
+            { name: "Vetoketjun vaihto", price: "alk 35 €" }
           ]
         },
         {
           title: "Housujen lahkeet lyhennys",
           items: [
-            { name: "Housujen lahkeet", price: "— 20 €" },
-            { name: "Housujen lahkeet piiloompelu", price: "— 30 €" },
-            { name: "Napinläpi", price: "— 6 € / kpl" },
-            { name: "Nappi ompelu", price: "— 5 € / kpl" },
-            { name: "Paikkojen ompelu", price: "— 15 € / kpl" }
+            { name: "Housujen lahkeet", price: "20 €" },
+            { name: "Housujen lahkeet piiloompelu", price: "30 €" },
+            { name: "Napinläpi", price: "6 € / kpl" },
+            { name: "Nappi ompelu", price: "5 € / kpl" },
+            { name: "Paikkojen ompelu", price: "15 € / kpl" }
           ]
         },
         {
           title: "Hameet",
           items: [
-            { name: "Lyhennys", price: "alk — 35 €" },
-            { name: "Vetoketjun vaihto", price: "alk — 25 €" },
-            { name: "Muut kavennykset", price: "— 25 €" },
-            { name: "Vyötärön kavennus", price: "alk — 25 €" }
+            { name: "Lyhennys", price: "alk 35 €" },
+            { name: "Vetoketjun vaihto", price: "alk 25 €" },
+            { name: "Muut kavennykset", price: "25 €" },
+            { name: "Vyötärön kavennus", price: "alk 25 €" }
           ]
         },
         {
           title: "Jacket Zipper Replacement",
           items: [
-            { name: "Children’s jacket", price: "— 35 €" },
-            { name: "Hoodie", price: "— 30 €" },
-            { name: "Length 60–70 cm", price: "— 55 €" },
-            { name: "Length 75–85 cm", price: "— 65 €" },
-            { name: "Length 90–100 cm", price: "— 75 €" }
+            { name: "Children’s jacket", price: "35 €" },
+            { name: "Hoodie", price: "30 €" },
+            { name: "Length 60–70 cm", price: "55 €" },
+            { name: "Length 75–85 cm", price: "65 €" },
+            { name: "Length 90–100 cm", price: "75 €" }
           ]
         },
 
@@ -299,8 +306,15 @@ export const translations = {
       hours: "Aukioloajat",
       hoursValue: "Ma-Pe: 9-18",
       addressValue: "Kotikyläntie 4, 02770 Espoo, Suomi",
+      phoneValue: "+358 40 123 4567",
+      emailValue: "info@eskompelimo.fi",
     },
     footer: {
+      columns: {
+        services: "Palvelut",
+        contact: "Ota Yhteyttä",
+        social: "Seuraa Meitä"
+      },
       copyright: "© 2026 ESK Ompelimo. Kaikki oikeudet pidätetään.",
       tagline: "Huippuosaamista Ensimmäisestä Päivästä",
     },

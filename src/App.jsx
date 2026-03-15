@@ -58,7 +58,7 @@ function App() {
       <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 150px)' }}>
         {renderSection()}
       </main>
-      <Footer translations={t} />
+      <Footer translations={t} setActiveSection={setActiveSection} />
     </div>
   )
 }
