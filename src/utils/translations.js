@@ -378,9 +378,9 @@ export const translations = {
     contact: {
       title: "Ota Yhteyttä",
       subtitle: "Luodaan yhdessä jotain ainutlaatuista",
-      phone: "Puhelin",
-      email: "Sähköposti",
-      address: "Osoite",
+      phoneLabel: "Puhelin",
+      email Label: "Sähköposti",
+      addressLabel: "Osoite",
       hours: "Aukioloajat",
       hoursValue: "Ma - Pe: 9-18",
       addressValue: "Kotikyläntie 4 LT 5, 02770 Espoo, Suomi",
