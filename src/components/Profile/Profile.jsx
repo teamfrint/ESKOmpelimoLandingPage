@@ -12,12 +12,9 @@ function Profile({ translations }) {
           <div className="profile__image-wrapper">
             {/* Fallback image if local image not found */}
             <img
-              src="/profile-image.png"
+              src="/profile.jpeg"
               alt="Ali Reza - Professional Tailor"
               className="profile__image"
-              onError={(e) => {
-                e.target.src = "https://images.pexels.com/photos/6766247/pexels-photo-6766247.jpeg?_gl=1*1v2g5h3*_ga*MTQ0NTE3NTk4NS4xNzczNTYwMDg2*_ga_8JE65Q40S6*czE3NzM1NjAwODUkbzEkZzEkdDE3NzM1NjAxNDIkajMkbDAkaDA.";
-              }}
             />
           </div>
 

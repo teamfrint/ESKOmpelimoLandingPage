@@ -30,7 +30,7 @@
 
   &__image-wrapper {
     width: 100%;
-    height: 400px;
+    height: 800px;
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: $spacing-xl;
@@ -41,6 +41,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position:top;
   }
 
   &__text {
