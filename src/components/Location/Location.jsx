@@ -13,9 +13,8 @@ function Location({ translations }) {
         <div className="location__content">
           <div className="location__address-card">
             <h3 className="location__address-title">{translations.location.addressLabel}</h3>
-            <p className="location__address-text">
-              Kotikyläntie 4<br />
-              02770 Espoo
+            <p className="location__address-text" style={{ whiteSpace: 'pre-line' }}>
+              {translations.location.address}
             </p>
             <div className="location__info">
               <p className="location__info-text">{translations.location.walkingDist}</p>

@@ -27,7 +27,7 @@ function Contact({ translations }) {
               </div>
               <div className="contact-item__content">
                 <h3 className="contact-item__label">{translations.contact.phone}</h3>
-                <p className="contact-item__value">045 8569566</p>
+                <p className="contact-item__value">{translations.contact.phoneValue}</p>
               </div>
             </div>
 
@@ -39,8 +39,8 @@ function Contact({ translations }) {
                 </svg>
               </div>
               <div className="contact-item__content">
-                <h3 className="contact-item__label">{translations.contact.email}</h3>
-                <p className="contact-item__value">alireza27ahmadi@gmail.com </p>
+                <h3 className="contact-item__label">{translations.contact.emailLabel}</h3>
+                <p className="contact-item__value">alireza27ahmadi@gmail.com</p>
               </div>
             </div>
 
@@ -52,7 +52,7 @@ function Contact({ translations }) {
                 </svg>
               </div>
               <div className="contact-item__content">
-                <h3 className="contact-item__label">{translations.contact.address}</h3>
+                <h3 className="contact-item__label">{translations.contact.addressLabel}</h3>
                 <p className="contact-item__value">{translations.contact.addressValue}</p>
               </div>
             </div>
@@ -65,8 +65,24 @@ function Contact({ translations }) {
                 </svg>
               </div>
               <div className="contact-item__content">
-                <h3 className="contact-item__label">{translations.contact.hours}</h3>
-                <p className="contact-item__value">{translations.contact.hoursValue}</p>
+                <h3 className="contact-item__label">{translations.contact.openingHoursLabel}</h3>
+                <p className="contact-item__value">{translations.contact.openingHours}</p>
+              </div>
+            </div>
+
+            <div className="contact-item">
+              <div className="contact-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div className="contact-item__content">
+                <h3 className="contact-item__label">{translations.contact.businessIdLabel}</h3>
+                <p className="contact-item__value">{translations.contact.businessId}</p>
               </div>
             </div>
           </div>

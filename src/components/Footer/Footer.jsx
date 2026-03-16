@@ -30,9 +30,11 @@ function Footer({ translations, setActiveSection }) {
           <div className="footer__column">
             <h3 className="footer__column-title">{translations.footer.columns.contact}</h3>
             <div className="footer__contact-info">
-              <p><strong>{translations.contact.address}:</strong><br/> {translations.contact.addressValue}</p>
-              <p><strong>{translations.contact.phone}:</strong><br/> {translations.contact.phoneValue}</p>
-              <p><strong>{translations.contact.email}:</strong><br/> {translations.contact.emailValue}</p>
+              <p><strong>{translations.contact.addressLabel}:</strong><br/> {translations.contact.addressValue}</p>
+              <p><strong>{translations.contact.phoneLabel}:</strong><br/> 045 8569566</p>
+              <p><strong>{translations.contact.emailLabel}:</strong><br/> alireza27ahmadi@gmail.com</p>
+              <p><strong>{translations.footer.openingHoursLabel}:</strong><br/> {translations.footer.openingHours}</p>
+              <p><strong>{translations.footer.businessIdLabel}:</strong><br/> {translations.footer.businessId}</p>
             </div>
           </div>
 

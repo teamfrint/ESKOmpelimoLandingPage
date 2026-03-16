@@ -127,6 +127,7 @@ export const translations = {
     location: {
       title: "Location",
       addressLabel: "Address",
+      address: "Kotikyläntie 4\n02770 Espoo",
       getDirections: "Get Directions on Google Maps",
       walkingDist: "The tailor shop is located about a 7-minute walk from Espoo center train station, at Kotikyläntie 4, opposite Kirkkojärvi school.",
       parking: "4-hour parking is always available for cars."
@@ -183,6 +184,10 @@ export const translations = {
       addressValue: "Kotikyläntie 4, 02770 Espoo, Finland",
       phoneValue: "+358 40 123 4567",
       emailValue: "info@eskompelimo.fi",
+      openingHoursLabel: "Opening Hours",
+      openingHours: "Mon-Fri 10:00 - 18:00",
+      businessIdLabel: "Business ID",
+      businessId: "2914779-4"
     },
     footer: {
       columns: {
@@ -192,6 +197,10 @@ export const translations = {
       },
       copyright: "© 2026 ESK Ompelimo. All rights reserved.",
       tagline: "Crafting Excellence Since Day One",
+      businessIdLabel: "Business ID",
+      businessId: "2914779-4",
+      openingHoursLabel: "Opening Hours",
+      openingHours: "Mon-Fri 10:00 - 18:00"
     },
   },
   fi: {
@@ -320,6 +329,7 @@ export const translations = {
     location: {
       title: "Sijainti",
       addressLabel: "Osoite",
+      address: "Kotikyläntie 4\n02770 Espoo",
       getDirections: "Hae reittiohjeet Google Mapsista",
       walkingDist: "Ompelimo sijaitsee noin 7 minuutin kävelymatkan päässä Espoon keskus -juna-asemalta, osoitteessa Kotikyläntie 4, Kirkkojärven koulun vastapäätä.",
       parking: "Ja autolle on aina saatavilla 4 tunnin pysäköinti."
@@ -376,6 +386,10 @@ export const translations = {
       addressValue: "Kotikyläntie 4, 02770 Espoo, Suomi",
       phoneValue: "+358 40 123 4567",
       emailValue: "info@eskompelimo.fi",
+      openingHoursLabel: "Aukioloajat",
+      openingHours: "Ma-pe 10:00 - 18:00",
+      businessIdLabel: "Y-tunnus",
+      businessId: "2914779-4"
     },
     footer: {
       columns: {
@@ -385,6 +399,10 @@ export const translations = {
       },
       copyright: "© 2026 ESK Ompelimo. Kaikki oikeudet pidätetään.",
       tagline: "Huippuosaamista Ensimmäisestä Päivästä",
+      businessIdLabel: "Y-tunnus",
+      businessId: "2914779-4",
+      openingHoursLabel: "Aukioloajat",
+      openingHours: "Ma-pe 10:00 - 18:00"
     },
   },
 };
