@@ -127,7 +127,7 @@ export const translations = {
     location: {
       title: "Location",
       addressLabel: "Address",
-      address: "Kotikyläntie 4\n02770 Espoo",
+      address: "Kotikyläntie 4 LT 5\n02770 Espoo",
       getDirections: "Get Directions on Google Maps",
       walkingDist: "The tailor shop is located about a 7-minute walk from Espoo center train station, at Kotikyläntie 4, opposite Kirkkojärvi school.",
       parking: "4-hour parking is always available for cars."
@@ -181,9 +181,9 @@ export const translations = {
       address: "Address",
       hours: "Hours",
       hoursValue: "Mon-Fri: 9AM-6PM",
-      addressValue: "Kotikyläntie 4, 02770 Espoo, Finland",
+      addressValue: "Kotikyläntie 4 LT 5, 02770 Espoo, Finland",
       phoneValue: "045 8569566",
-      emailValue: "info@eskompelimo.fi",
+      emailValue: "eskompelimo@gmail.com",
       openingHoursLabel: "Opening Hours",
       openingHours: "Mon-Fri 10:00 - 18:00",
       businessIdLabel: "Business ID",
@@ -329,7 +329,7 @@ export const translations = {
     location: {
       title: "Sijainti",
       addressLabel: "Osoite",
-      address: "Kotikyläntie 4\n02770 Espoo",
+      address: "Kotikyläntie 4 LT 5\n02770 Espoo",
       getDirections: "Hae reittiohjeet Google Mapsista",
       walkingDist: "Ompelimo sijaitsee noin 7 minuutin kävelymatkan päässä Espoon keskus -juna-asemalta, osoitteessa Kotikyläntie 4, Kirkkojärven koulun vastapäätä.",
       parking: "Ja autolle on aina saatavilla 4 tunnin pysäköinti."
@@ -379,7 +379,7 @@ export const translations = {
       title: "Ota Yhteyttä",
       subtitle: "Luodaan yhdessä jotain ainutlaatuista",
       phoneLabel: "Puhelin",
-      email Label: "Sähköposti",
+      emailLabel: "Sähköposti",
       addressLabel: "Osoite",
       hours: "Aukioloajat",
       hoursValue: "Ma - Pe: 9-18",

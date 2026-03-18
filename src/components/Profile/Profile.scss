@@ -67,7 +67,12 @@
     }
 
     &__image-wrapper {
-      height: 300px;
+      height: 450px;
+      margin-bottom: $spacing-xl;
+    }
+
+    &__image {
+      object-position: center 20%;
     }
 
     &__paragraph {
@@ -84,11 +89,6 @@
 
     &__content {
       padding: $spacing-lg;
-    }
-
-    &__image-wrapper {
-      height: 250px;
-      margin-bottom: $spacing-lg;
     }
 
     &__paragraph {
