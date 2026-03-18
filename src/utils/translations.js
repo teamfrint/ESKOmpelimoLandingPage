@@ -342,11 +342,8 @@ export const translations = {
       cta: "Mene Palveluihin",
     },
     profileText: [
-      "Hei, olen Ali Reza. Olen ammattitaitoinen ompelija ja suunnittelija minulla on yli 15 vuoden kokemus tältä alata. Opiskelin Vaasan ammattikoulussa suunnittelua ja kaavoitusta mikä loi vahvan perustan työlleni.",
-      "Tarjoan mittatilaus vaatteita, korjausompelua, sekä yksilöllistä suunnittelua asiakkaan toiveiden mukaan. Työssäni yhdistyvät tarkkuus, laatu ja täydellinen istuvuus.",
-      "Tavoitteeni on luoda vaatteita, jotka tuntuvat hyvältä ja näyttävät upealta.",
-      "Teen lisäksi huonekalujen verhoiluja sekä korjaustöitä. Myös veneiden ja matkailuautojen verhoilu.",
-      "Suuremmat tilaukset ja projektit yrityksille. Tarjoan laadukasta työtä lyhyessä ajassa kilpailukykyiseen hintaan."
+      "Hei, olen Ali Reza. Olen ammattitaitoinen ompelija ja suunnittelija. Minulla on yli 15 vuoden kokemus alalta. Opiskelin Vaasan ammattiopistossa suunnittelua ja kaavoitusta, mikä loi vahvan perustan työlleni. Tarjoan mittatilaustyönä vaatteiden yksilöllistä suunnittelua ja valmistusta asiakkaan toiveiden mukaan sekä korjausompelua. Työssäni yhdistyvät laatu, tarkkuus ja täydellinen istuvuus.Tavoitteeni on luoda vaatteita, jotka tuntuvat mukavilta ja näyttävät upeilta asiakkaan päällä. ",
+      "Lisäksi teen huonekalujen sekä veneiden ja matkailuautojen verhoilua. Teen myös suurempia tilauksia ja projekteja yrityksille. Tarjoan laadukasta työtä lyhyessä toimitusajassa kilpailukykyiseen hintaan. Ota rohkeasti yhteyttä!"
     ],
 
     services: {
