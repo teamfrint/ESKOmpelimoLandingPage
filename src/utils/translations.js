@@ -226,7 +226,7 @@ export const translations = {
         },
         {
           id: "zipper-replacement",
-          title: "Vetoketjun vaihto",
+          title: "Vetoketjujen vaihto",
           description: "Nopea ja kestävä vetoketjun korjaus ja vaihto takkeihin, housuihin, mekkoihin ja muihin vaatteisiin."
         },
         {

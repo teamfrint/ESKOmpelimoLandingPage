@@ -40,7 +40,7 @@ function Contact({ translations }) {
               </div>
               <div className="contact-item__content">
                 <h3 className="contact-item__label">{translations.contact.emailLabel}</h3>
-                <p className="contact-item__value">alireza27ahmadi@gmail.com</p>
+                <p className="contact-item__value">{translations.contact.emailValue}</p>
               </div>
             </div>
 
