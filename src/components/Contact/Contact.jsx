@@ -12,8 +12,8 @@ function Contact({ translations }) {
         <div className="contact__content">
           <div className="contact__image">
             <img
-              src="https://images.pexels.com/photos/7148440/pexels-photo-7148440.jpeg?auto=compress&cs=tinysrgb&w=7680&h=4320"
-              alt="Tailor at work"
+              src="/contact.png"
+              alt="Tailor Ali Reza at work"
               loading="lazy"
             />
           </div>

@@ -12,7 +12,7 @@ function Profile({ translations }) {
           <div className="profile__image-wrapper">
             {/* Fallback image if local image not found */}
             <img
-              src="/profile.jpeg"
+              src="./profile.jpeg"
               alt="Ali Reza - Professional Tailor"
               className="profile__image"
             />
