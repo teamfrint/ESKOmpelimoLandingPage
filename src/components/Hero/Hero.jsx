@@ -12,7 +12,7 @@ function Hero({ translations, setActiveSection }) {
       <div className="hero__overlay"></div>
       <div className="hero__image">
         <img
-          src="public/heroImage.png"
+          src="/heroImage.png"
           alt="Professional tailoring workspace - ESK Ompelimo"
           loading="eager"
         />
