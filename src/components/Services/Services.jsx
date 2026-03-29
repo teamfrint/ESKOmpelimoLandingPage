@@ -15,7 +15,7 @@ function Services({ translations, activeSubSection }) {
     "zipper-replacement": "/zipper.jpeg",
     "shortening": "/lahken.jpeg",
     "alteration-services": "https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "boat-upholstery": "/Venen.jpeg",
+    "boat-upholstery": "/venen.jpeg",
     "furniture-upholstery": "/shofa.png"
   };
 

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import Gallery from './components/Gallery/Gallery'
 import Profile from './components/Profile/Profile'
 import Services from './components/Services/Services'
 import PriceList from './components/PriceList/PriceList'
@@ -30,7 +31,12 @@ function App() {
     }
     switch (activeSection) {
       case 'hero':
-        return <Hero translations={t} setActiveSection={setActiveSection} />
+        return (
+          <>
+            <Hero translations={t} setActiveSection={setActiveSection} />
+            <Gallery translations={t} />
+          </>
+        )
       case 'profile':
         return <Profile translations={t} />
       case 'services':
@@ -42,7 +48,12 @@ function App() {
       case 'contact':
         return <Contact translations={t} />
       default:
-        return <Hero translations={t} setActiveSection={setActiveSection} />
+        return (
+          <>
+            <Hero translations={t} setActiveSection={setActiveSection} />
+            <Gallery translations={t} />
+          </>
+        )
     }
   }
 

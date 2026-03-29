@@ -139,6 +139,48 @@ export const translations = {
         "Crafting bespoke garments with precision and passion. Where tradition meets modern elegance.",
       cta: "Go to Services",
     },
+    gallery: {
+      title: "Our Work",
+      subtitle: "A Glimpse into Our Craftsmanship",
+      items: [
+        {
+          id: 1,
+          image: "/seatCover.jpeg",
+          title: "Boat Upholstery",
+          description: "High-quality marine upholstery for a fresh look."
+        },
+        {
+          id: 2,
+          image: "/shofa.png",
+          title: "Furniture Restoration",
+          description: "Expert restoration of antique and modern furniture."
+        },
+        {
+          id: 3,
+          image: "/vatet.jpeg",
+          title: "Custom Clothing",
+          description: "Bespoke tailoring for perfect fit and style."
+        },
+        {
+          id: 4,
+          image: "/zipper.jpeg",
+          title: "Detailed Repairs",
+          description: "Professional zipper replacements and modifications."
+        },
+        {
+          id: 5,
+          image: "/lahken.jpeg",
+          title: "Trousers & Hems",
+          description: "Precise alterations for all types of trousers."
+        },
+        {
+          id: 6,
+          image: "/ompelimo.png",
+          title: "Our Studio",
+          description: "The heart of ESK Ompelimo's craftsmanship."
+        }
+      ]
+    },
     profileText: [
       "Hello, I am Ali Reza.",
       "I am a skilled tailor and designer with over 15 years of experience in this field. I studied design and pattern making at the Vaasa Vocational School, which created a strong foundation for my work.",
@@ -241,7 +283,7 @@ export const translations = {
         },
         {
           id: "boat-upholstery",
-          title: "Venen verhoilutyöt",
+          title: "venen verhoilutyöt",
           description: "Laadukkaat veneiden verhoilutyöt veneesi sisätilojen ja suojien entisöimiseksi ja suojaamiseksi."
         },
         {
@@ -340,6 +382,37 @@ export const translations = {
       description:
         "Valmistamme mittatilausvaatteita tarkkuudella ja intohimolla. Perinne kohtaa modernin eleganssin.",
       cta: "Mene Palveluihin",
+    },
+    gallery: {
+      title: "Tehtyjä Töitä",
+      subtitle: "Vilkaisu Ammattitaitoomme",
+      items: [
+        {
+          id: 1,
+          image: "/seatCover.jpeg",
+
+        },
+        {
+          id: 2,
+          image: "/venen.jpeg",
+
+        },
+        {
+          id: 3,
+          image: "/jacket.jpeg",
+
+        },
+        {
+          id: 4,
+          image: "/jacketBefore.jpeg",
+
+        },
+        {
+          id: 5,
+          image: "/jacketAfter.jpeg",
+
+        },
+      ]
     },
     profileText: [
       "Hei, olen Ali Reza. Olen ammattitaitoinen ompelija ja suunnittelija. Minulla on yli 15 vuoden kokemus alalta. Opiskelin Vaasan ammattiopistossa suunnittelua ja kaavoitusta, mikä loi vahvan perustan työlleni. Tarjoan mittatilaustyönä vaatteiden yksilöllistä suunnittelua ja valmistusta asiakkaan toiveiden mukaan sekä korjausompelua. Työssäni yhdistyvät laatu, tarkkuus ja täydellinen istuvuus.Tavoitteeni on luoda vaatteita, jotka tuntuvat mukavilta ja näyttävät upeilta asiakkaan päällä. ",
