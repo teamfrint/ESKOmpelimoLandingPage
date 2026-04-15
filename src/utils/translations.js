@@ -178,6 +178,48 @@ export const translations = {
           image: "/ompelimo.png",
           title: "Our Studio",
           description: "The heart of ESK Ompelimo's craftsmanship."
+        },
+        {
+          id: 7,
+          image: "/coatBack.jpeg",
+          title: "Coat Back View",
+          description: "Detailed view of coat tailoring from the back."
+        },
+        {
+          id: 8,
+          image: "/coatFront.jpeg",
+          title: "Coat Front View",
+          description: "Bespoke coat tailoring with perfect fit."
+        },
+        {
+          id: 9,
+          image: "/coatReady.jpeg",
+          title: "Finished Coat",
+          description: "A completed tailored coat project."
+        },
+        {
+          id: 10,
+          image: "/massage_before.jpeg",
+          title: "Massage Table (Before)",
+          description: "Table before professional upholstery restoration."
+        },
+        {
+          id: 11,
+          image: "/massage_after.jpeg",
+          title: "Massage Table (After)",
+          description: "High-quality upholstery for massage tables."
+        },
+        {
+          id: 12,
+          image: "/womens.jpeg",
+          title: "Women's Fashion",
+          description: "Custom-made clothing for women."
+        },
+        {
+          id: 13,
+          image: "/sewingmachine.jpeg",
+          title: "Precision Sewing",
+          description: "Using professional equipment for high-quality results."
         }
       ]
     },
@@ -410,8 +452,49 @@ export const translations = {
         {
           id: 5,
           image: "/jacketAfter.jpeg",
-
         },
+        {
+          id: 6,
+          image: "/coatBack.jpeg",
+          title: "Takin takapuoli",
+          description: "Yksityiskohtainen näkymä takin valmistuksesta takaa."
+        },
+        {
+          id: 7,
+          image: "/coatFront.jpeg",
+          title: "Takin etupuoli",
+          description: "Mittatilaustyönä valmistettu takki, joka istuu täydellisesti."
+        },
+        {
+          id: 8,
+          image: "/coatReady.jpeg",
+          title: "Valmis takki",
+          description: "Valmis mittatilaustyönä tehty takki."
+        },
+        {
+          id: 9,
+          image: "/massage_before.jpeg",
+          title: "Hieronnan pöytä (Ennen)",
+          description: "Pöytä ennen ammattimaista verhoilua."
+        },
+        {
+          id: 10,
+          image: "/massage_after.jpeg",
+          title: "Hieronnan pöytä (Jälkeen)",
+          description: "Laadukas verhoilu hierontapöydille."
+        },
+        {
+          id: 11,
+          image: "/womens.jpeg",
+          title: "Naisten muoti",
+          description: "Yksilölliset vaatteet naisille."
+        },
+        {
+          id: 12,
+          image: "/sewingmachine.jpeg",
+          title: "Tarkkuusompelu",
+          description: "Ammattilaisten laitteiden käyttö korkealaatuisten tulosten saavuttamiseen."
+        }
       ]
     },
     profileText: [

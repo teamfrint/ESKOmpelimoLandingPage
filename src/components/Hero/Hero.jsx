@@ -12,8 +12,8 @@ function Hero({ translations, setActiveSection }) {
       <div className="hero__overlay"></div>
       <div className="hero__image">
         <img
-          src="/heroImage.png"
-          alt="Professional tailoring workspace - ESK Ompelimo"
+          src="/zipper.jpeg"
+          alt="High-quality zipper detail - professional tailoring"
           loading="eager"
         />
       </div>
